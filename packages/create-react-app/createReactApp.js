@@ -466,7 +466,7 @@ function run(
         }
 
         // TODO: Remove with next major release.
-        if (!supportsTemplates && template.includes('typescript')) {
+        if (!supportsTemplates && (template || '').includes('typescript')) {
           allDependencies.push(
             '@types/node',
             '@types/react',
