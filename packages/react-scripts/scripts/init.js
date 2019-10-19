@@ -100,7 +100,10 @@ module.exports = function(
     return;
   }
 
-  const templatePath = path.join(appPath, 'node_modules', templateName);
+  const templatePath = path.join(
+    require.resolve(templateName, { paths: [appPath] }),
+    '..'
+  );
 
   // Copy over some of the devDependencies
   appPackage.dependencies = appPackage.dependencies || {};

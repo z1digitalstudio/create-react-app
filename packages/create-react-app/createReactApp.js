@@ -216,7 +216,7 @@ function createApp(
   useTypeScript
 ) {
   const unsupportedNodeVersion = !semver.satisfies(process.version, '>=8.10.0');
-  if (unsupportedNodeVersion && useTypescript) {
+  if (unsupportedNodeVersion && useTypeScript) {
     console.log(
       chalk.red(
         `You are using Node ${process.version} with the TypeScript template. Node 8.10 or higher is required to use TypeScript.\n`
@@ -452,7 +452,7 @@ function run(
 
         // Only support templates when used alongside new react-scripts versions.
         const supportsTemplates = semver.gte(
-          packageVersion,
+          semver.coerce(packageVersion),
           templatesVersionMinimum
         );
         if (supportsTemplates) {

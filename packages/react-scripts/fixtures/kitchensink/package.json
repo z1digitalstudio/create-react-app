@@ -1,4 +1,5 @@
 {
-    "name": "kitchensink",
-    "version": "1.0.0"
+  "name": "kitchensink",
+  "main": "template.json",
+  "version": "1.0.0"
 }
