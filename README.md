@@ -1,3 +1,17 @@
+# @z1digitalstudio/react-scripts
+
+This Z1's customized react-scripts fork. It includes the latest react-script
+changes, plus the following features:
+
+- Supports `styled-components` with `babel-plugin-styled-components` out of the
+  box.
+
+In order to install:
+
+```bash
+$ yarn add --dev react-scripts@npm:@z1digitalstudio/react-scripts
+```
+
 # Create React App [![Build Status](https://dev.azure.com/facebook/create-react-app/_apis/build/status/facebook.create-react-app?branchName=master)](https://dev.azure.com/facebook/create-react-app/_build/latest?definitionId=1&branchName=master) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](https://github.com/facebook/create-react-app/blob/master/CONTRIBUTING.md)
 
 Create React apps with no build configuration.
