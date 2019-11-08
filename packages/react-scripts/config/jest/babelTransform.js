@@ -13,4 +13,8 @@ module.exports = babelJest.createTransformer({
   presets: [require.resolve('babel-preset-react-app')],
   babelrc: false,
   configFile: false,
+  plugins: [
+    [require.resolve('@babel/plugin-proposal-optional-chaining')],
+    [require.resolve('@babel/plugin-proposal-nullish-coalescing-operator')],
+  ],
 });
