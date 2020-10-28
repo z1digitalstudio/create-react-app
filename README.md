@@ -1,3 +1,16 @@
+# @z1digitalstudio/react-scripts
+
+This Z1's customized react-scripts fork. It includes the latest react-script
+changes, plus the following features:
+
+- Early release of the slow recompile times fix that will be released in 4.0.1.
+
+In order to install:
+
+```bash
+$ yarn add --dev react-scripts@npm:@z1digitalstudio/react-scripts
+```
+
 # Create React App [![Build Status](https://dev.azure.com/facebook/create-react-app/_apis/build/status/facebook.create-react-app?branchName=master)](https://dev.azure.com/facebook/create-react-app/_build/latest?definitionId=1&branchName=master) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](https://github.com/facebook/create-react-app/blob/master/CONTRIBUTING.md)
 
 <img alt="Logo" align="right" src="https://create-react-app.dev/img/logo.svg" width="20%" />
